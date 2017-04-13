@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <CopeX_MailchimpSMTP>
+            <active>true</active>
+            <codePool>local</codePool>
+            <depends>
+                <Aschroder_SMTPPro/>
+                <Ebizmarts_MailChimp/>
+            </depends>
+        </CopeX_MailchimpSMTP>
+    </modules>
+</config>

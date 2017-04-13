@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <CopeX_MailchimpSMTP>
+            <version>1.0.0</version>
+        </CopeX_MailchimpSMTP>
+    </modules>
+    <global>
+        <helpers>
+            <copex_mailchimpsmtp>
+                <class>CopeX_MailchimpSMTP_Helper</class>
+            </copex_mailchimpsmtp>
+        </helpers>
+        <models>
+            <copex_mailchimpsmtp>
+                <class>CopeX_MailchimpSMTP_Model</class>
+            </copex_mailchimpsmtp>
+            <core>
+                <rewrite>
+                    <email_template>CopeX_MailchimpSMTP_Model_Email_Template</email_template>
+                    <email_queue>CopeX_MailchimpSMTP_Model_Email_Queue</email_queue>
+                </rewrite>
+            </core>
+        </models>
+    </global>
+</config>
